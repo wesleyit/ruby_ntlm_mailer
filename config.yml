@@ -1,0 +1,11 @@
+---
+login_domain: 'ACME.LATAM' # Your AD Domain
+login_user: 'john.doe' # Your AD User
+login_password: 'mypass123' # Your AD Pass
+localhost: 'computer01.acme.latam' # FQDN of the machine sending this email
+smtp_server: '192.168.0.5' # IP of the MS-Exchange Server
+from_name: 'John Doe'
+from_addr: 'john.doe@acme.com.br'
+to_name: 'Mark Nobody'
+to_addr: 'mark.nobody@nodomain.com'
+subject: 'My interesting subject!'
